@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kingsley Hemans - Links</title>
+  </head>
+  <body>
+    <style>
+      @font-face {
+        font-family: "Inter";
+        src: url(/assets/fonts/Inter-Regular.ttf);
+      }
+      @font-face {
+        font-family: "Inter-Medium";
+        src: url(/assets/fonts/Inter-Medium.ttf);
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        background-color: #171717;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em
+      }
+
+      .wrap {
+        display: flex;
+        gap: 5rem;
+        background-color: aliceblue;
+        min-width: 400px;
+        height: fit-content;
+        flex-direction: column;
+        padding: 3rem;
+        border-radius: 15px;
+      }
+      .profile-img{
+        background-color: #171717;
+        border-radius: 200px;
+        width: fit-content;
+        height: fit-content;
+        padding: 1rem;
+        margin-bottom: 1.2rem;
+      }
+      
+      .profile-img > img {
+        width: 4rem;
+        height: 4rem;
+      }
+      .links-item-img > img{
+        width: 3rem;
+      }
+      .links-down {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .links-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .links-item {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        background-color: #171717;
+        border-radius: 100px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        scale: 1;
+        transition: scale .3s ease-in-out ;
+      }
+      .links-item:hover{
+        scale: 1.1;
+      }
+      .profile-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .links-item-links,
+      .links-item {
+        width: 100%;
+      }
+      .profile.name,
+      .profile-bio {
+        text-align: center;
+      }
+      .profile-bio{
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 0.8rem;
+      }
+      .profile-name{
+        font-family: "Inter";
+        font-size: 1.6rem;
+      }
+     
+      .links-item > h3 {
+        text-decoration: none;
+        color: aliceblue;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 0.9rem;
+      }
+      a {
+        text-decoration: none;
+      }
+      .footer--paragraph , .footer--paragraph > a{
+        color: aliceblue;
+        font-family: "Inter";
+      }
+      .footer--paragraph{
+        font-size: 0.8em;
+      }
+    </style>
+    <div class="container">
+      <div class="wrap">
+        <div class="links-top">
+          <div class="profile-img">
+            <img src="./assets/photos/pinched-fingers-emoji-emoji-1878x2048-o5ceonjx.png" alt="" />
+          </div>
+          <div class="profile-detail">
+            <h2 class="profile-name">Kingsley Hemans</h2>
+            <p class="profile-bio">
+              UI/UX Designer and Web Developer
+            </p>
+          </div>
+        </div>
+        <div class="links-down">
+          <a href="wwww.hemansjr.com" class="links-item-links"
+            ><div class="links-item">
+              <div class="links-item-img">
+                <img src="./assets/sticky button.png" alt="" />
+              </div>
+              <h3>Visit my portfolio</h3>
+            </div></a
+          >
+          <a href="https://www.behance.net/kingsleyhemans" class="links-item-links"
+            ><div class="links-item">
+              <div class="links-item-img">
+                <img src="./assets/sticky button.png" alt="" />
+              </div>
+              <h3>Behance</h3>
+            </div></a
+          >
+          <a href="https://unsplash.com/@hemansjr" class="links-item-links"
+            ><div class="links-item">
+              <div class="links-item-img">
+                <img src="./assets/sticky button.png" alt="" />
+              </div>
+              <h3>Unsplash</h3>
+            </div></a
+          >
+          <a href="" class="links-item-links"
+            ><div class="links-item">
+              <div class="links-item-img">
+                <img src="./assets/sticky button.png" alt="" />
+              </div>
+              <h3>Buy me a coffee!</h3>
+            </div></a
+          >
+        </div>
+      </div>
+      <div class="footer-small">
+        <p class="footer--paragraph"> Designed and Built by <a href="www.hemansjr.com"><strong>Kingsley Hemans</strong></a> </p>
+      </div>
+    </div>
+   
+  </body>
+</html>
