@@ -511,10 +511,12 @@ section {
 }
 
 /* 2xl */
-@media (max-width: 1526px) {
+@media (max-width: 1920px) {
   .page-wrap {
     max-width: 1288px;
   }
+  .heroh1{
+    font-size: 10.7vw;
 }
 
 /* xl */
@@ -533,7 +535,7 @@ section {
     padding: 0;
   }
   .heroh1 {
-    font-size: 9.6vw;
+    font-size: 10.3vw;
   }
   .project-grids {
     grid-template-columns: 1fr 1fr;
