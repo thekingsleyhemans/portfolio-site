@@ -72,8 +72,8 @@ a {
 }
 .navbar {
   width: 100%;
-  /*max-width: 1536px;*/
-  padding: 1.5rem 5rem 1rem 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
   background-color: #f3f3edfe;
   display: flex;
   justify-content: center;
