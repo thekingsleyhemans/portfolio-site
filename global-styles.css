@@ -142,6 +142,7 @@ section {
 }
 .is--landing {
   height: 100%;
+  align-self: center;
 }
 .hero-landing {
   padding-bottom: 1.5rem;
@@ -229,6 +230,7 @@ section {
 }
 .is--ab {
   height: auto;
+  align-self: center;
 }
 .about-top {
   padding-top: 3rem;
@@ -513,7 +515,7 @@ section {
 /* 2xl */
 @media (max-width: 1920px) {
   .page-wrap {
-    max-width: 1288px;
+    max-width: 1440px;
   }
   
 
