@@ -1022,12 +1022,12 @@ section {
     border-radius: 100px;
     padding: 1rem 1.5rem 1rem 1.5rem;
     font-family: "Inter", "sans-serif";
-    font-size: 0.7rem;
+    font-size: 18px;
   }
   .heroh1 {
     white-space: wrap;
-    font-size: 8.6vw;
-    line-height: 6vh;
+    font-size: 22px;
+
   }
   .hero-wrap {
     padding-top: 2rem;
