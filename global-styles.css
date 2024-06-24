@@ -1026,17 +1026,23 @@ section {
   }
   .heroh1 {
     white-space: wrap;
-    font-size: 22px;
+    font-size: 39px;
 
   }
   .hero-wrap {
     padding-top: 2rem;
     gap: 0;
   }
+  .nav-inner{
+    padding-left: 0;
+  }
   .navbar {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+ .nav-brand > a{
+  font-size: 20px;
+ }
   .tag-wrap > h2 {
     font-size: 0.9rem;
     line-height: 1.2rem;
