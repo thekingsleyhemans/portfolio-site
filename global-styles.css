@@ -212,6 +212,7 @@ section {
   font-weight: 600;
   color: #101010eb;
   white-space: nowrap;
+  clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .hero-bottom {
