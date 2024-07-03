@@ -140,6 +140,11 @@ a {
   color: #353434eb;
   border-bottom: 1px solid #353434eb;
 }
+.char{
+  transform: translateY(155px);
+  transition: transform .5s;
+  overflow: hidden;
+}
 
 .scrolled {
   display: block;
