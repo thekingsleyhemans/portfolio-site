@@ -205,7 +205,7 @@ section {
   overflow-y: hidden;
 }
 .char{
-  transform: translateY(300px);
+  transform: translateY(268px);
   transition: transform .3s ease-in-out forwards;
 }
 
