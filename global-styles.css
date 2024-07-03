@@ -201,8 +201,10 @@ section {
   }
 
 }
+.word{
+  overflow-y: hidden;
+}
 .char{
-  clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
   transform: translateY(300px);
   transition: transform .3s ease-in-out forwards;
 }
