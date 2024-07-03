@@ -204,10 +204,6 @@ section {
 .char{
   transform: translateY(300x);
   transition: transform .3s ease-in-out forwards;
-  overflow: hidden;
-}
-.line{
-  overflow: hidden;
 }
 
 .heroh1 {
