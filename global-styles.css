@@ -206,6 +206,10 @@ section {
   transition: transform .5s;
   overflow: hidden;
 }
+.line{
+  overflow: hidden;
+  padding-bottom: 0.9rem;
+}
 
 .heroh1 {
   font-family: "Helvetica", sans-serif;
