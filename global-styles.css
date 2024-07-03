@@ -202,7 +202,7 @@ section {
 
 }
 .char{
-  transform: translateY(300x);
+  transform: translateY(300px);
   transition: transform .3s ease-in-out forwards;
 }
 
