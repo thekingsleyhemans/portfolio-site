@@ -140,11 +140,7 @@ a {
   color: #353434eb;
   border-bottom: 1px solid #353434eb;
 }
-.char{
-  transform: translateY(155px);
-  transition: transform .5s;
-  overflow: hidden;
-}
+
 
 .scrolled {
   display: block;
@@ -205,6 +201,11 @@ section {
   }
 
 }
+.char{
+  transform: translateY(155px);
+  transition: transform .5s;
+  overflow: hidden;
+}
 
 .heroh1 {
   font-family: "Helvetica", sans-serif;
@@ -212,7 +213,6 @@ section {
   font-weight: 600;
   color: #101010eb;
   white-space: nowrap;
-  clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .hero-bottom {
