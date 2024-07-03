@@ -202,8 +202,8 @@ section {
 
 }
 .char{
-  transform: translateY(355px);
-  transition: transform .5s;
+  transform: translateY(300x);
+  transition: transform .3s ease-in-out forwards;
   overflow: hidden;
 }
 .line{
