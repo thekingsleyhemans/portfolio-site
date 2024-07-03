@@ -202,7 +202,7 @@ section {
 
 }
 .char{
-  transform: translateY(255px);
+  transform: translateY(355px);
   transition: transform .5s;
   overflow: hidden;
 }
