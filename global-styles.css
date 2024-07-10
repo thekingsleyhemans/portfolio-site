@@ -296,6 +296,10 @@ section {
   height: 100%;
   padding-top: 5rem;
 }
+.centered{
+  display: flex;
+  justify-content: center;
+}
 
 /*.abt-text{
   color: hsl(0 0% 100% / 0.2 );
@@ -315,9 +319,9 @@ section {
 
 
 .about-content>p {
-  width: 85%;
+  width: 50%;
   color: #101010eb;
-  float: right;
+ /* float: right;*/
   font-weight: 400;
   font-size: 1.5em;
 }
