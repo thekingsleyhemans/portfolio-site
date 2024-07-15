@@ -215,6 +215,7 @@ section {
   font-weight: 600;
   color: #101010eb;
   white-space: nowrap;
+  line-height: 9vw;
 }
 
 .hero-bottom {
