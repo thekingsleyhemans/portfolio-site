@@ -773,7 +773,6 @@ section {
     }
 
     .ptext-wrap {
-      overflow: visible;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -920,9 +919,6 @@ section {
       white-space: nowrap;
     }
 
-    .ptext-wrap {
-      overflow: visible;
-    }
 
     .hero-btn a {
       font-size: 1rem;
