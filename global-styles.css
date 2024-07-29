@@ -542,10 +542,9 @@ section {
 }
 
 .title-bottom {
-  width: 13rem;
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 8rem;
   padding-bottom: 2rem;
 }
 
