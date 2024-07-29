@@ -894,6 +894,9 @@ section {
       color: #101010eb;
       font-family: "Inter", sans-serif;
     }
+    .nav-menu-wrap>a:hover{
+      color: #1b1b1ba3;
+    }
 
     .heroh1 {
       overflow: hidden;
