@@ -67,6 +67,8 @@ a {
   color: #101010eb;
   z-index: 99999999999999;
   text-decoration: none;
+  border-bottom: 1px solid #878787eb;
+  padding-bottom: 0.3em;
 }
 a::after {
   content: '';
@@ -144,8 +146,7 @@ a:hover::after {
   font-size: 1.1rem;
   color: #1b1b1beb;
   font-family: "Inter", sans-serif;
-  border-bottom: 1px solid #1b1b1beb;
-  padding-bottom: 0.3em;
+ 
   transition: all .2s ease-in-out;
 }
 
