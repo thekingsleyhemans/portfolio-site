@@ -944,8 +944,8 @@ section {
 
     .sticky-cta,
     .sticky-cta-link {
-      width: 6rem;
-      height: 6rem;
+      width: 8em;
+      height: 8rem;
     }
 
     .project-cards-wrap {
