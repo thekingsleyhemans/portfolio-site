@@ -61,7 +61,7 @@ html {
   scale: 1.1;
 }
 
-a {
+.link{
   display: inline-block;
   position: relative;
   color: #101010eb;
@@ -70,7 +70,7 @@ a {
   border-bottom: 1px solid #878787eb;
   padding-bottom: 0.3em;
 }
-a::after {
+.link::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -83,7 +83,7 @@ a::after {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-a:hover::after {
+.link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
