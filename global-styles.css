@@ -257,19 +257,19 @@ section {
   animation: fadeinUp 1s forwards;
   animation-delay: 2s;
 }
-@keyframes fadeinUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .hero-btn {
   display: flex;
   align-content: flex-start;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
+  overflow: hidden;
+}
+.btnlink{
+  opacity: 0;
+  transform: translateY(50rem);
+  animation: fadeinUp 1s forwards;
+  animation: 2.5s;
 }
 
 .hero-btn a {
@@ -394,6 +394,12 @@ section {
 
   to {
     transform: translateX(calc(-100% - 1rem));
+  }
+}
+@keyframes fadeinUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
