@@ -252,7 +252,10 @@ section {
   font-size: 1.3rem;
   line-height: 1.5rem;
   white-space: nowrap;
-  
+  opacity: 0;
+  transform: translateY(50rem);
+  animation: fadeinUp 1s forwards;
+  animation-delay: 2s;
 }
 .hero-btn {
   display: flex;
@@ -278,7 +281,7 @@ section {
   font-family: "Inter", "sans-serif";
   transition: background-color .2s ease-in-out;
   opacity: 0;
-  transform: translateY(50rem);
+  transform: translateY(30rem);
   animation: fadeinUp 1s forwards;
   animation-delay: 2s;
 }
