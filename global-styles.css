@@ -61,15 +61,14 @@ html {
   scale: 1.1;
 }
 
-a, .links {
+a {
   display: inline-block;
   position: relative;
   color: #101010eb;
   z-index: 99999999999999;
   text-decoration: none;
-  padding-bottom: 0.3em;
 }
-.links::after {
+a::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -78,12 +77,11 @@ a, .links {
   height: 0.05em;
   bottom: 0;
   left: 0;
-  border-bottom: 1px solid #878787eb;
   background: currentcolor;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.links:hover::after {
+a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -123,7 +121,7 @@ a, .links {
 
 .nav-brand>a {
   font-family: "Helvetica", sans-serif;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #101010eb;
   font-size: 0.9rem;
 }
