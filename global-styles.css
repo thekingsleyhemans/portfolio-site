@@ -65,7 +65,6 @@ a {
   display: inline-block;
   position: relative;
   color: #101010eb;
-  z-index: 99999999999999;
   text-decoration: none;
 }
 
