@@ -544,6 +544,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 .title-bottom {
   display: flex;
