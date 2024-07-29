@@ -192,7 +192,61 @@ a {
 .scrolled {
   display: block;
 }
+.splash-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  animation: heightUp 2s ease-in-out forwards;
+  animation-delay: 3s;
+}
+@keyframes heightUp {
+  to{
+      height: 0;
+  }
+}
 
+.img-holder,
+.text-holder {
+  overflow: hidden;
+}
+
+.img-holder img {
+  width: 10rem;
+  animation: inUp 3s ease-in-out forwards;
+
+}
+.text-holder h1 {
+  color: aliceblue;
+  font-family: "Inter";
+  font-size: 3em;
+  font-weight: 500;
+  transform: translateY(20em);
+  animation: inUp 3s ease-in-out forwards;
+  animation-delay: .2s;        
+}
+@keyframes inUp {
+
+  0%{
+      transform: translateY(20em);
+  }
+  50%{
+      transform: translateY(0em);
+  }
+  70%{
+      transform: translateY(0em);
+  }
+  100%{
+      transform: translateY(20em);
+  }
+  
+}
 .page-container {
   position: absolute;
   height: 100vh;
