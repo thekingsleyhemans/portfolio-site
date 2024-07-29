@@ -243,6 +243,7 @@ section {
   flex-wrap: wrap;
   gap: 1rem;
   align-content: flex-end;
+  overflow: hidden;
 }
 
 .hero-p {
