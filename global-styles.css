@@ -966,7 +966,7 @@ section {
 
     .about-content>p {
       width: 100%;
-      font-size: 18px;
+      font-size: 2em;
       float: none;
       line-height: 1.5;
     }
