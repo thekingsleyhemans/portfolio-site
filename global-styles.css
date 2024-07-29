@@ -540,6 +540,9 @@ section {
   align-items: center;
   gap: 2rem;
 }
+.topic{
+  text-decoration: underline;
+}
 .detail-wrap{
   display: flex;
   flex-direction: column;
