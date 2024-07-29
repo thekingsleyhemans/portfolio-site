@@ -252,8 +252,8 @@ section {
   line-height: 1.5rem;
   white-space: nowrap;
   opacity: 0;
-  transform: translateY(-20rem);
-  animation: fadeinUp 100ms forwards;
+  transform: translateY(50rem);
+  animation: fadeinUp 1s forwards;
   animation-delay: .2s;
 }
 @keyframes fadeinUp {
