@@ -61,16 +61,15 @@ html {
   scale: 1.1;
 }
 
-a {
+a, .links {
   display: inline-block;
   position: relative;
   color: #101010eb;
   z-index: 99999999999999;
   text-decoration: none;
-  border-bottom: 1px solid #878787eb;
   padding-bottom: 0.3em;
 }
-a::after {
+.links::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -79,11 +78,12 @@ a::after {
   height: 0.05em;
   bottom: 0;
   left: 0;
+  border-bottom: 1px solid #878787eb;
   background: currentcolor;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-a:hover::after {
+.links:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
