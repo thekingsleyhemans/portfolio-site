@@ -101,7 +101,7 @@ a {
 }
 
 .nav-brand>a {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica-Bold", sans-serif;
   text-decoration: none !important;
   color: #101010eb;
   font-size: 0.9rem;
