@@ -40,6 +40,10 @@
   /*background-color:  #f3f3edfe; */
   color: #101010eb;
 }
+body.no-scroll {
+  overflow: hidden;
+}
+
 
 ::selection {
   color: black;
@@ -139,25 +143,7 @@ a {
 .scrolled {
   display: block;
 }
-.splash-wrap {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  overflow: hidden;
-  background-color: #1b1b1b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  animation: heightUp 2s ease-in-out forwards;
-  animation-delay: 3s;
-}
-@keyframes heightUp {
-  to{
-      height: 0;
-  }
-}
+
 
 .img-holder,
 .text-holder {
@@ -291,7 +277,7 @@ section {
   opacity: 0;
   transform: translateY(50rem);
   animation: fadeinUp 1s forwards;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 .hero-btn {
   display: flex;
@@ -305,7 +291,7 @@ section {
   opacity: 0;
   transform: translateY(50rem);
   animation: fadeinUp 1s forwards;
-  animation: 2.5s;
+  animation: 3.2s;
 }
 
 .hero-btn a {
@@ -722,6 +708,9 @@ section {
       width: 60rem;
     }
 
+  }
+  .net-wrap{
+    width: 100%;
   }
 
   /* lg */
@@ -1389,4 +1378,45 @@ section {
     .marquee-content>h1 {
       font-size: 2rem;
     }
+  }
+
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #161616; /* Set your desired background color */
+    z-index: 999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.5s ease; /* Animation for height reduction */
+    
+  }
+  
+  /* Optional: Styling for the text or spinner inside the preloader */
+  #preloader::after {
+    content: 'hemansjr'; /* Or use a spinner */
+    font-size: 24px;
+    color: #e9e9e9;
+    font-family: "Inter";
+  }
+  
+  .hidden {
+    height: 0 !important;
+    overflow: hidden;
+  }
+  .networks{
+    display: flex;
+    justify-content: center;
+  }
+  .net-wrap{
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+  }
+  .network-img{
+    width: 10rem;
   }
