@@ -16,6 +16,9 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
+
+
 
   <div class="page-container">
     <a class="sticky-cta-link rotating-circle" href="mailto:kingsleyhemans@gmail.com"><img
@@ -93,12 +96,17 @@
       </div>
       <div class="about-content">
         <div class="networks">
-          <h1>Image and Likness Studio</h1>
-          <h1>LimexHoney</h1>
-          <h1>LimeAR</h1>
-          <h1>SmartFord Consult</h1>
-          <h1>Grey Street Avenue</h1>
-          <h1>Beyond Borders</h1>
+          <div class="net-wrap">
+            <img src="./assets/photos/clients/lmar.png"alt="limexhoney logo" class="network-img">
+            <img src="./assets/photos/clients/bb.png" alt=" greystreet avenue logo" class="network-img">
+            <img src="./assets/photos/clients/lmxh.png" alt="" class="network-img">
+            <img src="./assets/photos/clients/gsa.png" alt="beyond borders" class="network-img">
+            <img src="./assets/photos/clients/imlks.png" alt="junkmag logo" class="network-img">
+            <img src="./assets/photos/clients/owsb.png" alt="limear logo" class="network-img">
+            <img src="./assets/photos/clients/smartford.png" alt="owusubadu logo" class="network-img">
+            <img src="./assets/photos/clients/junkmag.png" alt="" class="network-img">
+          </div>
+
         </div>
 
 
@@ -690,13 +698,35 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
     integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+
   <script>
-    const myText = new SplitType('#my-text')
-    gsap.to('.char', {
-      y: 0,
-      stagger: 0.04,
-      delay: .5
-    })
+    // Your existing animation code
+    const myText = new SplitType('#my-text');
+    const staggerAnimation = () => {
+      gsap.to('.char', {
+        y: 0,
+        stagger: 0.04,
+        delay: 0.5
+      });
+    };
+
+    // Preloader logic
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+
+      // Add 'no-scroll' class to body to disable scrolling
+      document.body.classList.add('no-scroll');
+
+      setTimeout(() => {
+        preloader.classList.add('hidden');
+
+        // Remove 'no-scroll' class to enable scrolling
+        document.body.classList.remove('no-scroll');
+
+        staggerAnimation();
+      }, 2000); // 2 seconds delay before hiding preloader
+    });
   </script>
   <script src="./script.js"></script>
 </body>
