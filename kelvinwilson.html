@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
   <div class="navbar">
     <div class="page-wrap">
       <div class="nav-inner">
@@ -110,13 +111,34 @@
     integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
-    const myText = new SplitType('#my-text')
-    gsap.to('.char', {
-      y: 0,
-      stagger: 0.04,
-      delay: .1
-    })
+    // Your existing animation code
+    const myText = new SplitType('#my-text');
+    const staggerAnimation = () => {
+      gsap.to('.char', {
+        y: 0,
+        stagger: 0.04,
+        delay: 0.5
+      });
+    };
+
+    // Preloader logic
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+
+      // Add 'no-scroll' class to body to disable scrolling
+      document.body.classList.add('no-scroll');
+
+      setTimeout(() => {
+        preloader.classList.add('hidden');
+
+        // Remove 'no-scroll' class to enable scrolling
+        document.body.classList.remove('no-scroll');
+
+        staggerAnimation();
+      }, 2000); // 2 seconds delay before hiding preloader
+    });
   </script>
+
   <script src="./script.js"></script>
 </body>
 
