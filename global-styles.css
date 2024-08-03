@@ -710,11 +710,14 @@ section {
 
   }
   .net-wrap{
-    width: 100%;
+    width: 100% !important;
   }
 
   /* lg */
   @media (max-width: 1024px) {
+    .net-wrap{
+      width: 100% !important;
+    }
     .page-wrap {
       max-width: 100%;
       padding-left: 1.5rem;
