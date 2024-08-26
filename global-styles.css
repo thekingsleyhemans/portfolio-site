@@ -312,6 +312,13 @@ section {
   background-color: #101010eb;
   color: #f3f3edfe;
 }
+.hero-image{
+  width: 100%;
+  height: 40rem;
+  background-image: url(assets/photos/DSC02782edited.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .is--about {
   height: auto;
