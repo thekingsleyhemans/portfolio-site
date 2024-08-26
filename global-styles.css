@@ -1440,18 +1440,18 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #161616; /* Set your desired background color */
+    background: #161616; 
     z-index: 999999999999999;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: height 0.5s ease; /* Animation for height reduction */
+    transition: height 0.5s ease; 
     
   }
   
-  /* Optional: Styling for the text or spinner inside the preloader */
+  
   #preloader::after {
-    content: 'hemansjr'; /* Or use a spinner */
+    content: 'hemansjr'; 
     font-size: 24px;
     color: #e9e9e9;
     font-family: "Inter";
