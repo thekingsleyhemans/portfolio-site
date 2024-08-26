@@ -315,6 +315,7 @@ section {
 .hero-image{
   width: 100%;
   height: 50rem;
+  margin-top: 3rem;
   background-image: url(assets/photos/DSC02782edited.jpg);
   background-size: cover;
   background-repeat: no-repeat;
