@@ -732,6 +732,9 @@ section {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
+    .nav-inner{
+      padding-left: 0.3rem !important;
+    }
 
     .is--about {
       overflow: hidden;
