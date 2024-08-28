@@ -1211,6 +1211,9 @@ section {
       font-size: 8.4vw;
     }
   }
+  .hero-image{
+    height: 30rem;
+  }
 
   /* xs */
   @media (max-width: 475px) {
