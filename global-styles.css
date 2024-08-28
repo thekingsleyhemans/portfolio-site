@@ -447,11 +447,11 @@ section {
 }
 
 .scroll {
-  animation: scroll 30s linear infinite;
+  animation: scroll 30s linear infinite !important;
 }
 
 .reverse {
-  animation-direction: reverse;
+  animation-direction: reverse !important;
 }
 
 .marquee-content>h1 {
