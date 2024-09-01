@@ -257,6 +257,7 @@ section {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 
 .ptext-wrap {
@@ -273,7 +274,6 @@ section {
   font-family: "Inter", sans-serif;
   font-size: 1.3rem;
   line-height: 1.5rem;
-  white-space: nowrap;
   opacity: 0;
   transform: translateY(50rem);
   animation: fadeinUp 1s forwards;
