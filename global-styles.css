@@ -1390,7 +1390,7 @@ section {
       color: #101010eb;
       font-family: "Inter", sans-serif;
       font-size: 15px;
-      white-space: nowrap;
+      white-space: wrap;
     }
 
     .footer-mid>a {
