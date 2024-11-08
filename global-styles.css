@@ -410,6 +410,7 @@ section {
   transform: rotate(0deg);
   animation: roate 0.9s linear infinite forwards;
   mix-blend-mode: difference;
+  pointer-events: auto;
 }
 
 @keyframes rotate {
