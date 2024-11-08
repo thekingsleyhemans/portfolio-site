@@ -552,6 +552,9 @@ section {
   font-size: 14.34vw;
   text-decoration: none;
 }
+.footer-mid > a:hover{
+  opacity: -1;
+}
 
 .footer-bottom {
   display: flex;
