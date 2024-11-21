@@ -1327,7 +1327,7 @@ section {
 
   .hero-bottom {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column-reverse;
     gap: 3rem;
