@@ -1214,10 +1214,6 @@ section {
 }
 
 @media (max-width: 518px) {
-  .footer-mid>a {
-    font-size: 10vw;
-  }
-
   .heroh1 {
     font-size: 8.4vw;
   }
